@@ -50,5 +50,3 @@ This repository implements a finite element solution for **Example 12.6.2**. It 
 
 ---
 
-## Repository Structure
-
