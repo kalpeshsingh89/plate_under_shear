@@ -44,9 +44,37 @@ This repository implements a finite element solution for **Example 12.6.2**. It 
 
 ## Expected Results
 
-- Maximum deflection converges with mesh refinement.
-- Stress concentration near the fixed boundary.
-- Demonstrates accuracy of FEM in linear elasticity for thin plates.
+# Plate Under Shear (deal.II Trial Project)
+
+## 📖 Problem Statement
+The FEM problem solved here:
+
+![Problem Statement](docs/1ques.png)
+
+---
+
+## 🖥️ Mesh Generated
+![Mesh](docs/mesh_generated.png)
+
+---
+
+## 📊 Results
+
+- Overall deformation:  
+  ![Overall Deformation](docs/overall_def_original.png)
+
+- Overall stress distribution:  
+  ![Overall Stress](docs/overall_stress.png)
+
+- Stress component σ<sub>xx</sub>:  
+  ![Sigma_xx](docs/sigma_xx.png)
+
+- Stress component σ<sub>yy</sub>:  
+  ![Sigma_yy](docs/sigma_yy.png)
+
+- Stress component σ<sub>xy</sub>:  
+  ![Sigma_xy](docs/sigma_xy.png)
+
 
 ---
 
